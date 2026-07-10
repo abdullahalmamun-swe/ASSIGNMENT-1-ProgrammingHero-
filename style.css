@@ -241,7 +241,7 @@ header {
 }
 
 .sponsor-text {
-  color: #6B7280;
+  color: #6b7280;
   font-size: 18px;
   margin-bottom: 50px;
 }
@@ -254,15 +254,15 @@ header {
 
 .sponsor-card {
   background: white;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 35px 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .sponsor-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .sponsor-card img {
@@ -278,13 +278,12 @@ header {
 }
 
 .sponsor-card p {
-  color: #6B7280;
+  color: #6b7280;
   font-size: 15px;
   line-height: 1.6;
 }
 
 .venue {
-
   width: 85%;
   margin: 100px auto;
 
@@ -292,65 +291,90 @@ header {
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
-
 }
 
 .venue h2 {
-
   font-size: 48px;
   margin-bottom: 20px;
-
 }
 
 .venue p {
-
   color: #666;
   line-height: 1.8;
-
 }
 
 .venue-info {
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin: 40px 0;
-
 }
 
 .info-box {
-
-  background: #F8FAFC;
+  background: #f8fafc;
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid #E5E7EB;
-
+  border: 1px solid #e5e7eb;
 }
 
 .info-box h3 {
-
   font-size: 18px;
   margin-bottom: 10px;
-
 }
 
 .venue button {
-
-  background: #2563EB;
+  background: #2563eb;
   color: white;
   border: none;
   padding: 15px 35px;
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
-
 }
 
 .venue img {
-
   width: 100%;
   border-radius: 12px;
-
 }
 
 /* PLACEHOLDER SECTION — AI CHALLENGE ( close ) */
+footer {
+  background: #0f1c2e;
+  padding: 30px 8%;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-copyright {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.img-copyright img {
+  width: 125px;
+}
+
+.img-copyright p {
+  color: #8b95a7;
+  font-size: 18px;
+}
+
+.privacy-terms-links {
+  display: flex;
+  gap: 30px;
+}
+
+.privacy-terms-links a {
+  text-decoration: none;
+  color: #8b95a7;
+  font-size: 18px;
+}
+
+.privacy-terms-linkss a:hover {
+  color: white;
+}
