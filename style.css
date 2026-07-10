@@ -260,11 +260,6 @@ header {
   transition: 0.3s;
 }
 
-.sponsor-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
 .sponsor-card img {
   width: 80px;
   height: 80px;
@@ -338,43 +333,56 @@ header {
 }
 
 /* PLACEHOLDER SECTION — AI CHALLENGE ( close ) */
-footer {
-  background: #0f1c2e;
-  padding: 30px 8%;
+
+.footer {
+  background-color: #0d1b2a;
+  padding: 40px 80px;
+  color: #ffffff;
 }
 
-.footer-box {
+.logo img {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+.footer-a {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.img-copyright {
+.social-icons span {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 18px;
+}
+
+.social-icons span:hover {
+  color: antiquewhite;
+}
+
+.footer-b {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
 }
 
-.img-copyright img {
-  width: 125px;
+.footer-b p {
+  color: #e5e7eb;
+  font-size: 15px;
 }
 
-.img-copyright p {
-  color: #8b95a7;
-  font-size: 18px;
-}
-
-.privacy-terms-links {
+.footer-links {
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 
-.privacy-terms-links a {
+.footer-links a {
+  color: #e5e7eb;
   text-decoration: none;
-  color: #8b95a7;
-  font-size: 18px;
 }
 
-.privacy-terms-linkss a:hover {
-  color: white;
+.footer-links a:hover {
+  color: skyblue;
 }
