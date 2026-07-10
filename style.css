@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  align-items: center;
+  padding: 18px 8%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #575757;
+}
+
+.nav-button button {
+    background-color: #1D4ED8;
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+}
