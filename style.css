@@ -187,7 +187,9 @@ header {
   margin-bottom: 18px;
   line-height: 1.6;
 }
-
+li::marker{
+  color: #2563eb;
+}
 .pricing-card button {
   width: 100%;
   padding: 15px;
