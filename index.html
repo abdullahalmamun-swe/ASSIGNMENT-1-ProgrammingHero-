@@ -1,275 +1,269 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DEVCONF</title>
-    <link rel="icon" type="image/png" href="./image/logo-mini.png" />
-    <link rel="stylesheet" href="./style.css" />
-    <!-- google font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEVCONF</title>
+  <link rel="icon" type="image/png" href="./image/logo-mini.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <!-- nav start -->
-    <nav>
-      <!-- nav-logo -->
-      <div>
-        <img src="./image/logo.png" alt="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- nav start -->
+  <nav>
+    <!-- nav-logo -->
+    <div>
+      <img src="./image/logo.png" alt="" />
+    </div>
+
+    <div>
+      <ul>
+        <li><a href="">Speakers</a></li>
+        <li><a href="">Schedule</a></li>
+        <li><a href="">Tracks</a></li>
+        <li><a href="">Venue</a></li>
+        <li><a href="">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-button">
+      <button>Register Now</button>
+    </div>
+  </nav>
+  <!-- nav close -->
+
+  <!-- header start -->
+  <header>
+    <div class="header-content">
+      <h1>
+        <strong>Code. <i>Connect.</i> Create</strong>
+      </h1>
+      <p>
+        Join 4,000+ engineers, founders, and builders at the premier developer
+        <br />conference of 2026. Three days of cutting-edge talks, hands-on
+        workshops,<br />
+        and meaningful connections.
+      </p>
+      <button>Register Now</button>
+    </div>
+  </header>
+  <!-- header close -->
+
+  <main>
+    <!-- Meet the Speakers start -->
+    <section class="speakers">
+      <h2>Meet the Speakers</h2>
+      <div class="speaker-grid">
+        <div class="card">
+          <img src="./image/andrej.png" alt="" />
+          <div class="info">
+            <h6>AI / ML</h6>
+            <h3>Andrej Karpathy</h3>
+            <p>Pretraining team, Anthropic</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./image/demis.png" alt="" />
+          <div class="info">
+            <h6>CLOUD & DEVOPS</h6>
+            <h3>Demis Hassabis</h3>
+            <p>Co-Founder and CEO, Google DeepMind</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./image/gary.png" alt="" />
+          <div class="info">
+            <h6>FRONTEND</h6>
+            <h3>Gary Marcus</h3>
+            <p>Staff Engineer, Vercel</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./image/mustafa.png" alt="" />
+          <div class="info">
+            <h6>SECURITY</h6>
+            <h3>Mustafa Suleyman</h3>
+            <p>CEO of Microsoft AI</p>
+          </div>
+        </div>
       </div>
+    </section>
+    <!-- Meet the Speakers close -->
 
-      <div>
-        <ul>
-          <li><a href="">Speakers</a></li>
-          <li><a href="">Schedule</a></li>
-          <li><a href="">Tracks</a></li>
-          <li><a href="">Venue</a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
+    <!-- pricing section start -->
+    <section class="pricing">
+      <h1>Secure Your Spot</h1>
+      <p class="notice">Early-bird pricing ends August 15, 2026.</p>
+      <div class="pricing-card-grid">
+        <!-- p-card-1 -->
+        <div class="pricing-card">
+          <h5>Standard</h5>
+          <h1>$399</h1>
+          <p>person</p>
+          <hr />
+          <ul>
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <button>Get Standard</button>
+        </div>
+
+        <!-- p-card-2  -->
+
+        <div class="pricing-card highlight">
+          <h5>Pro</h5>
+          <h1>$749</h1>
+          <p>per person</p>
+          <hr />
+          <ul>
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
+          <button>Get Pro</button>
+        </div>
+
+        <!-- p-card-3  -->
+        <div class="pricing-card contact">
+          <h5>Team</h5>
+          <h1>$5,999</h1>
+          <p>up to 10 people</p>
+          <hr />
+          <ul>
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+          <button>Contact Us</button>
+        </div>
       </div>
+    </section>
+    <!-- pricing section close  -->
 
-      <div class="nav-button">
-        <button>Register Now</button>
+    <!-- PLACEHOLDER SECTION — AI CHALLENGE -->
+    <!-- Sponsor Showcase -->
+
+    <section class="sponsors">
+      <h2>Our Sponsors</h2>
+
+      <p class="sponsor-text">
+        Proudly supported by the world's leading technology companies.
+      </p>
+
+      <div class="sponsor-grid">
+        <div class="sponsor-card">
+          <img src="./image/Google__G__logo.svg.webp" alt="Google" />
+          <h3>Google</h3>
+          <p>AI, Cloud & Open Source Innovation</p>
+        </div>
+
+        <div class="sponsor-card">
+          <img src="./image/microsoft-logo.svg" alt="Microsoft" />
+          <h3>Microsoft</h3>
+          <p>Empowering every developer on the planet.</p>
+        </div>
+
+        <div class="sponsor-card">
+          <img src="./image/GitHub-Logo.wine.png" alt="GitHub" />
+          <h3>GitHub</h3>
+          <p>Build software together with GitHub.</p>
+        </div>
+
+        <div class="sponsor-card">
+          <img src="./image/nvidia-color.png" alt="NVIDIA" />
+          <h3>NVIDIA</h3>
+          <p>Accelerating AI and high-performance computing.</p>
+        </div>
       </div>
-    </nav>
-    <!-- nav close -->
+    </section>
 
-    <!-- header start -->
-    <header>
-      <div class="header-content">
-        <h1>
-          <strong>Code. <i>Connect.</i> Create</strong>
-        </h1>
+    <!-- Venue Section -->
+
+    <section class="venue">
+      <div class="venue-left">
+        <h2>Conference Venue</h2>
+
         <p>
-          Join 4,000+ engineers, founders, and builders at the premier developer
-          <br />conference of 2026. Three days of cutting-edge talks, hands-on
-          workshops,<br />
-          and meaningful connections.
-        </p>
-        <button>Register Now</button>
-      </div>
-    </header>
-    <!-- header close -->
-
-    <main>
-      <!-- Meet the Speakers start -->
-      <section class="speakers">
-        <h2>Meet the Speakers</h2>
-        <div class="speaker-grid">
-          <div class="card">
-            <img src="./image/andrej.png" alt="" />
-            <div class="info">
-              <h6>AI / ML</h6>
-              <h3>Andrej Karpathy</h3>
-              <p>Pretraining team, Anthropic</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./image/demis.png" alt="" />
-            <div class="info">
-              <h6>CLOUD & DEVOPS</h6>
-              <h3>Demis Hassabis</h3>
-              <p>Co-Founder and CEO, Google DeepMind</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./image/gary.png" alt="" />
-            <div class="info">
-              <h6>FRONTEND</h6>
-              <h3>Gary Marcus</h3>
-              <p>Staff Engineer, Vercel</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./image/mustafa.png" alt="" />
-            <div class="info">
-              <h6>SECURITY</h6>
-              <h3>Mustafa Suleyman</h3>
-              <p>CEO of Microsoft AI</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Meet the Speakers close -->
-
-      <!-- pricing section start -->
-      <section class="pricing">
-        <h1>Secure Your Spot</h1>
-        <p class="notice">Early-bird pricing ends August 15, 2026.</p>
-        <div class="pricing-card-grid">
-          <!-- p-card-1 -->
-          <div class="pricing-card">
-            <h5>Standard</h5>
-            <h1>$399</h1>
-            <p>person</p>
-            <hr />
-            <ul>
-              <li>Access to all 3 conference days</li>
-              <li>48 curated technical talks</li>
-              <li>2 workshop sessions</li>
-              <li>Networking lunch & coffee breaks</li>
-              <li>Conference swag bag</li>
-              <li>Digital recordings (30 days)</li>
-            </ul>
-            <button>Get Standard</button>
-          </div>
-
-          <!-- p-card-2  -->
-
-          <div class="pricing-card highlight">
-            <h5>Pro</h5>
-            <h1>$749</h1>
-            <p>per person</p>
-            <hr />
-            <ul>
-              <li>Everything in Standard</li>
-              <li>Unlimited workshop access</li>
-              <li>Speaker meet & greet</li>
-              <li>VIP networking dinner</li>
-              <li>Lifetime recording access</li>
-              <li>1-on-1 mentorship (30 min)</li>
-            </ul>
-            <button>Get Pro</button>
-          </div>
-
-          <!-- p-card-3  -->
-          <div class="pricing-card contact">
-            <h5>Team</h5>
-            <h1>$5,999</h1>
-            <p>up to 10 people</p>
-            <hr />
-            <ul>
-              <li>Everything in Pro (10 seats)</li>
-              <li>Dedicated team lounge access</li>
-              <li>Private workshop booking</li>
-              <li>Company logo on event page</li>
-              <li>Recruitment booth (1 day)</li>
-              <li>Priority customer support</li>
-            </ul>
-            <button>Contact Us</button>
-          </div>
-        </div>
-      </section>
-      <!-- pricing section close  -->
-
-      <!-- PLACEHOLDER SECTION — AI CHALLENGE -->
-      <!-- Sponsor Showcase -->
-
-      <section class="sponsors">
-        <h2>Our Sponsors</h2>
-
-        <p class="sponsor-text">
-          Proudly supported by the world's leading technology companies.
+          Join us at the Silicon Valley Convention Center, California.
+          Experience three days of inspiring talks, networking, workshops, and
+          innovation.
         </p>
 
-        <div class="sponsor-grid">
-          <div class="sponsor-card">
-            <img src="./image/Google__G__logo.svg.webp" alt="Google" />
-            <h3>Google</h3>
-            <p>AI, Cloud & Open Source Innovation</p>
+        <div class="venue-info">
+          <div class="info-box">
+            <h3>📍 Location</h3>
+            <p>San Jose, California</p>
           </div>
 
-          <div class="sponsor-card">
-            <img src="./image/microsoft-logo.svg" alt="Microsoft" />
-            <h3>Microsoft</h3>
-            <p>Empowering every developer on the planet.</p>
+          <div class="info-box">
+            <h3>📅 Date</h3>
+            <p>October 11–09, 2026</p>
           </div>
 
-          <div class="sponsor-card">
-            <img src="./image/GitHub-Logo.wine.png" alt="GitHub" />
-            <h3>GitHub</h3>
-            <p>Build software together with GitHub.</p>
-          </div>
-
-          <div class="sponsor-card">
-            <img src="./image/nvidia-color.png" alt="NVIDIA" />
-            <h3>NVIDIA</h3>
-            <p>Accelerating AI and high-performance computing.</p>
+          <div class="info-box">
+            <h3>👥 Attendees</h3>
+            <p>4,000+ Developers</p>
           </div>
         </div>
-      </section>
 
-      <!-- Venue Section -->
-
-      <section class="venue">
-        <div class="venue-left">
-          <h2>Conference Venue</h2>
-
-          <p>
-            Join us at the Silicon Valley Convention Center, California.
-            Experience three days of inspiring talks, networking, workshops, and
-            innovation.
-          </p>
-
-          <div class="venue-info">
-            <div class="info-box">
-              <h3>📍 Location</h3>
-              <p>San Jose, California</p>
-            </div>
-
-            <div class="info-box">
-              <h3>📅 Date</h3>
-              <p>October 11–09, 2026</p>
-            </div>
-
-            <div class="info-box">
-              <h3>👥 Attendees</h3>
-              <p>4,000+ Developers</p>
-            </div>
-          </div>
-
-          <button>Get Directions</button>
-        </div>
-
-        <div class="venue-right">
-          <img
-            src="./image/extra.451831668_c5fa2f2c-c6ad-46d1-b803-bc8d4e07818d"
-            alt="Venue"
-          />
-        </div>
-      </section>
-    </main>
-    <!-- PLACEHOLDER SECTION — AI CHALLENGE ( close)-->
-
-    <!-- Footer Section start-->
-    <footer class="footer">
-      <!-- logo and icon -->
-      <div class="footer-a">
-        <div class="logo">
-          <img src="./image/footer-logo.png" alt="" />
-        </div>
-
-        <div class="social-icons">
-          <span><i class="fa-brands fa-facebook"></i></span>
-          <span><i class="fa-brands fa-instagram"></i></span>
-          <span><i class="fa-brands fa-square-linkedin"></i></span>
-          <span><i class="fa-brands fa-github"></i></span>
-        </div>
+        <button>Get Directions</button>
       </div>
-      <!-- copyright and privacy terms -->
-      <div class="footer-b">
-        <p>© 2026 DevConf. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="">Privacy Policy</a>
-          <a href="">Terms of Service</a>
-        </div>
+
+      <div class="venue-right">
+        <img src="./image/extra.451831668_c5fa2f2c-c6ad-46d1-b803-bc8d4e07818d" alt="Venue" />
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <!-- PLACEHOLDER SECTION — AI CHALLENGE ( close)-->
+
+  <!-- Footer Section start-->
+  <footer class="footer">
+    <!-- logo and icon -->
+    <div class="footer-a">
+      <div class="logo">
+        <img src="./image/footer-logo.png" alt="" />
+      </div>
+
+      <div class="social-icons">
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-square-linkedin"></i></span>
+        <span><i class="fa-brands fa-github"></i></span>
+      </div>
+    </div>
+    <!-- copyright and privacy terms -->
+    <div class="footer-b">
+      <p>© 2026 DevConf. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="">Privacy Policy</a>
+        <a href="">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
